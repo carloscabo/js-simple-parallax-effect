@@ -1,6 +1,6 @@
 # Pure JS simple parallax effect
 
-![Pure JS parallax effect]('img/mar-30-2017 18-12-31.gif')
+![GitHub Logo](/images/logo.png)
 
 Pure JS simple parallax effect sample
 
