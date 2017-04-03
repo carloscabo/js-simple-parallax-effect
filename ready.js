@@ -43,6 +43,8 @@ function shiftRelativeToParent( el, percent ) {
     d = (parent.offsetHeight - el.offsetHeight);
     offset = d * percent;
   el.style.top = offset + 'px';
+  el.style.opacity = 0.5 + percent * (0.5); // 0.5 -> 1.0
+  el.style['background-size'] = 'auto ' + (100 + (percent * 50) ) + '%';
 }
 
 var viewport;
